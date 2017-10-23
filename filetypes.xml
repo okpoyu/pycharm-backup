@@ -1,0 +1,21 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="tox" type="Ini" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
+      <mapping pattern="requirements" type="PLAIN_TEXT" />
+      <mapping pattern="bask" type="PLAIN_TEXT" />
+      <mapping pattern="override-default" type="PLAIN_TEXT" />
+      <mapping pattern="livemigrationarray" type="PLAIN_TEXT" />
+      <mapping pattern="vmax_plugin" type="PLAIN_TEXT" />
+      <mapping pattern="attachAndDetachTwoVolumes" type="PLAIN_TEXT" />
+      <mapping pattern="readme_DO_NOT_CHECK_INTO_OPENSTACK" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="java" type="PLAIN_TEXT" />
+      <mapping ext="enc" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

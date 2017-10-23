@@ -1,0 +1,24 @@
+<scheme name="Default copy" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.25" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </console-font>
+  <console-font>
+    <option name="EDITOR_FONT_NAME" value="Lucida Sans Typewriter" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
+  </console-font>
+  <colors>
+    <option name="CONSOLE_BACKGROUND_KEY" value="ffffbb" />
+  </colors>
+  <attributes>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="200000" />
+        <option name="BACKGROUND" value="ffffbb" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

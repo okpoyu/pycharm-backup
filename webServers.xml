@@ -1,0 +1,46 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6bbc4510-a173-463a-a55f-ae761b05f175" name="irco1sd9vm11" url="http://irco1sd9vm11.lss.emc.com">
+        <fileTransfer host="irco1sd9vm11.lss.emc.com" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f3436a3e-7e65-4ead-82b9-f5faa6cf186a" name="irco1sd9vm07" url="http://irco1sd9vm07">
+        <fileTransfer host="irco1sd9vm07" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2d7dc347-70b8-4deb-ba6e-82361fd97577" name="irco1sd9vm02" url="http://10.60.141.61">
+        <fileTransfer host="10.60.141.61" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fa0e6c64-91ec-41ae-99c8-d34289a42cc6" name="irco1sd9vm01" url="http://10.60.141.60">
+        <fileTransfer host="10.60.141.60" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="377d7160-ade4-46fc-84f9-1e1676586909" name="virtualbox" url="http://127.0.0.1">
+        <fileTransfer host="127.0.0.1" port="22" rootFolder="/home/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

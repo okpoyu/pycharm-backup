@@ -1,0 +1,100 @@
+<toolSet name="External Tools">
+  <tool name="pep8" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-e pep8 cinder/tests/unit/volume/drivers/dell_emc/vmax/test_vmax.py" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="tox py27" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-e py27 cinder.tests.unit.volume.drivers.dell_emc.vmax.test_vmax" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="pylint" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/pylint" />
+      <option name="PARAMETERS" value="--disable=all --enable=E cinder/volume/drivers/emc" />
+      <option name="WORKING_DIRECTORY" value="/opt/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="coverage" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/tox" />
+      <option name="PARAMETERS" value="-e cover cinder.tests.unit.volume.drivers.dell_emc.vmax.test_vmax" />
+      <option name="WORKING_DIRECTORY" value="/home/okpoyu/cinder" />
+    </exec>
+  </tool>
+  <tool name="run_test_complete" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/opt/stack/cinder/run_tests.sh" />
+      <option name="PARAMETERS" value="-V -f" />
+      <option name="WORKING_DIRECTORY" value="/opt/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="pep8_manila" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/opt/stack/manila/run_tests.sh" />
+      <option name="PARAMETERS" value="manila.tests.share.drivers.dell_emc.plugins.vmax -p" />
+      <option name="WORKING_DIRECTORY" value="/opt/stack/manila" />
+    </exec>
+  </tool>
+  <tool name="tox full" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="tox py34" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-e py35 cinder.tests.unit.volume.drivers.dell_emc.vmax.test_vmax" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="manila" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/opt/stack/manila/run_tests.sh" />
+      <option name="PARAMETERS" value="manila.tests.share.drivers.dell_emc.plugins.vmax.test_connection -V -f" />
+      <option name="WORKING_DIRECTORY" value="/opt/stack/manila" />
+    </exec>
+  </tool>
+  <tool name="connector" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/opt/stack/manila/run_tests.sh" />
+      <option name="PARAMETERS" value="manila.tests.share.drivers.dell_emc.plugins.vmax.test_connector -V -f" />
+      <option name="WORKING_DIRECTORY" value="/opt/stack/manila" />
+    </exec>
+  </tool>
+  <tool name="flake" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/okpoyu/cinder/.tox/pep8/bin/flake8" />
+      <option name="PARAMETERS" value="cinder/volume/drivers/dell_emc/vmax cinder/tests/unit/volume/drivers/dell_emc/vmax/test_vmax.py" />
+      <option name="WORKING_DIRECTORY" value="/home/okpoyu/cinder" />
+    </exec>
+  </tool>
+  <tool name="test_vmax tox py27" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-epy27 -- --regex ^cinder.tests.unit.volume.drivers.dell_emc.vmax.*" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="test_vmax tox py35" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-epy35 -- --regex ^cinder.tests.unit.volume.drivers.dell_emc.vmax.*" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+  <tool name="test_vmax tox all" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+    <exec>
+      <option name="COMMAND" value="/home/stack/.local/bin/tox" />
+      <option name="PARAMETERS" value="-- --regex ^cinder.tests.unit.volume.drivers.dell_emc.vmax.*" />
+      <option name="WORKING_DIRECTORY" value="/home/stack/cinder" />
+    </exec>
+  </tool>
+</toolSet>
