@@ -41,6 +41,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="a982d06b-a7a5-4384-a1a5-2485d3816284" name="irco1sd9vm22" url="http://irco1sd9vm22.lss.emc.com">
+        <fileTransfer host="irco1sd9vm22.lss.emc.com" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
