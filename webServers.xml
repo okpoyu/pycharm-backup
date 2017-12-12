@@ -57,8 +57,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="83cee015-2870-41a8-9934-001f4355096d" name="cse-openstack-202" url="http://cse-openstack-200">
-        <fileTransfer host="cse-openstack-200" port="22" rootFolder="/opt/stack" accessType="SFTP">
+      <webServer id="83cee015-2870-41a8-9934-001f4355096d" name="cse-openstack-202" url="http://cse-openstack-202">
+        <fileTransfer host="cse-openstack-202" port="22" rootFolder="/opt/stack" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
