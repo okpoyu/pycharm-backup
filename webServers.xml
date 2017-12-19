@@ -73,6 +73,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="39ebfda6-0b88-44db-8ed4-a423b02c5901" name="dldv0030" url="http://dldv0030.lss.emc.com">
+        <fileTransfer host="dldv0030.lss.emc.com" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
