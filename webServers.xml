@@ -65,6 +65,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="e5ff72ad-3293-4bd9-b2fc-b025d934197c" name="cse-openstack-controller" url="http://cse-openstack-controller">
+        <fileTransfer host="cse-openstack-controller" port="22" rootFolder="/opt/stack" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
