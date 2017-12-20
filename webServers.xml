@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6bbc4510-a173-463a-a55f-ae761b05f175" name="irco1sd9vm11" url="http://irco1sd9vm11.lss.emc.com">
-        <fileTransfer host="irco1sd9vm11.lss.emc.com" port="22" rootFolder="/opt/stack" accessType="SFTP">
+      <webServer id="6bbc4510-a173-463a-a55f-ae761b05f175" name="irco1sd9vm19" url="http://irco1sd9vm19.lss.emc.com">
+        <fileTransfer host="irco1sd9vm19.lss.emc.com" port="22" rootFolder="/opt/stack" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
