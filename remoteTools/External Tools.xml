@@ -41,7 +41,7 @@
       <option name="WORKING_DIRECTORY" value="/opt/stack/manila" />
     </exec>
   </tool>
-  <tool name="tox full" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="true" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
+  <tool name="tox full" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="DEFAULT_SDK">
     <exec>
       <option name="COMMAND" value="/home/stack/.local/bin/tox" />
       <option name="PARAMETERS" />
