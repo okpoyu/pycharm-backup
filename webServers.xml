@@ -25,8 +25,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="fa0e6c64-91ec-41ae-99c8-d34289a42cc6" name="irco1sd9vm01" url="http://10.60.141.60">
-        <fileTransfer host="10.60.141.60" port="22" rootFolder="/opt/stack" accessType="SFTP">
+      <webServer id="fa0e6c64-91ec-41ae-99c8-d34289a42cc6" name="irco1sd9vm01" url="http://irco1sd9vm01">
+        <fileTransfer host="irco1sd9vm01" port="22" rootFolder="/opt/stack" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
