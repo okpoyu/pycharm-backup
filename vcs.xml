@@ -102,6 +102,10 @@
           <option name="url" value="https://github.com/okpoyu/PyU4V.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://eos2git.cec.lab.emc.com/VMAX/ostackreleases.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\okpoyu\git" />
